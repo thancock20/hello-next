@@ -21,6 +21,15 @@ const Header = () => (
     <Link href="/counter-u2">
       <a style={linkStyle}>Counter-U2</a>
     </Link>
+    <Link href="/counter-res">
+      <a style={linkStyle}>Counter-RES</a>
+    </Link>
+    <Link href="/counter-res1">
+      <a style={linkStyle}>Counter-RES1</a>
+    </Link>
+    <Link href="/counter-res2">
+      <a style={linkStyle}>Counter-RES2</a>
+    </Link>
   </header>
 )
 

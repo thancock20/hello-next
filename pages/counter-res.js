@@ -1,6 +1,7 @@
 import Layout from '../components/MyLayout';
 import { view, store } from 'react-easy-state';
 
+@view
 class Counter extends React.Component {
   counter = store({
     count: 0
@@ -34,4 +35,4 @@ class Counter extends React.Component {
   }
 }
 
-export default view(Counter);
+export default Counter;

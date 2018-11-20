@@ -33,6 +33,12 @@ const Header = () => (
     <Link href="/counter-hooks">
       <a style={linkStyle}>Counter-Hooks</a>
     </Link>
+    <Link href="/counter-ezpz1">
+      <a style={linkStyle}>Counter-EZPZ1</a>
+    </Link>
+    <Link href="/counter-ezpz2">
+      <a style={linkStyle}>Counter-EZPZ2</a>
+    </Link>
   </header>
 )
 

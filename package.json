@@ -12,6 +12,7 @@
   "author": "Todd Hancock <thancock20@hotmail.com> (http://www.toddhancock.net/)",
   "license": "ISC",
   "dependencies": {
+    "easy-peasy": "^1.6.1",
     "immer": "^1.2.1",
     "isomorphic-unfetch": "^2.0.0",
     "koa": "^2.5.1",

@@ -30,6 +30,9 @@ const Header = () => (
     <Link href="/counter-res2">
       <a style={linkStyle}>Counter-RES2</a>
     </Link>
+    <Link href="/counter-hooks">
+      <a style={linkStyle}>Counter-Hooks</a>
+    </Link>
   </header>
 )
 

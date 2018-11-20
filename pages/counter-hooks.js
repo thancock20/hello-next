@@ -12,19 +12,8 @@ export default () =>  {
     <Layout title='Counter-Hooks'>
       <div>
         <button onClick={decrement}>-</button>
-        <span>{count}</span>
+        <span className="count">{count}</span>
         <button onClick={increment}>+</button>
-        <style jsx>{`
-          span {
-            margin: 10px;
-            font-weight: bold;
-          }
-
-          button {
-            width: 50px;
-            margin: 10px 0;
-          }
-        `}</style>
       </div>
     </Layout>
   )

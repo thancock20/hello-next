@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from './Header'
 import { Provider } from 'unstated'
 import CounterContainer from '../containers/CounterContainer'
+import GlobalStyles from './GlobalStyles';
 
 const counter = new CounterContainer()
 
@@ -21,6 +22,7 @@ const Layout = ({ children, title }) => (
       padding: 20;
       border: 1px solid #DDD;
     `}</style>
+    <GlobalStyles />
   </div>
 )
 

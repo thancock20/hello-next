@@ -19,19 +19,8 @@ export default class Counter extends React.Component {
       <Layout title='Counter'>
         <div>
           <button onClick={this.decrement}>-</button>
-          <span>{this.state.count}</span>
+          <span className="count">{this.state.count}</span>
           <button onClick={this.increment}>+</button>
-          <style jsx>{`
-            span {
-              margin: 10px;
-              font-weight: bold;
-            }
-
-            button {
-              width: 50px;
-              margin: 10px 0;
-            }
-          `}</style>
         </div>
       </Layout>
     )

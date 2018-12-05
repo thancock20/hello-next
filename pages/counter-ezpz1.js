@@ -3,9 +3,9 @@ import { StoreProvider, useStore, useAction } from 'easy-peasy';
 import store from '../containers/counter-ezpz';
 
 const Counter = () => {
-  const count = useStore(state => state.counter.count);
-  const increment = useAction(dispatch => dispatch.counter.increment);
-  const decrement = useAction(dispatch => dispatch.counter.decrement);
+  const count = useStore(state => state.count);
+  const increment = useAction(dispatch => dispatch.increment);
+  const decrement = useAction(dispatch => dispatch.decrement);
 
   return (
     <Layout title='Counter-Hooks'>

@@ -39,6 +39,9 @@ const Header = () => (
     <Link href="/counter-ezpz2">
       <a style={linkStyle}>Counter-EZPZ2</a>
     </Link>
+    <Link href="/tir-hooks">
+      <a style={linkStyle}>TIR-Hooks</a>
+    </Link>
   </header>
 )
 
